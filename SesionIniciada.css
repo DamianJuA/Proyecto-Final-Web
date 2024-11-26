@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(#c0c8ca, #1a2d42); 
+    height: auto;
+}
+
+.navbar{
+    background-color:  #c0c8ca, #1a2d42;
+    font-weight: 500;
+    font-size: 2rem;
+    height: 4rem;
+}
+
+.navbar .nav-link:hover {
+    color: #e6eaee;
+}
+
+#bloc1{
+    padding-top: 1rem;
+}
+
+#bloc2{
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#icono{
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid{
+    font-size: 14rem;
+    margin-left: 5rem;
+}
+
+#modalAgendarCita{
+    margin-left: 5rem;
+}
+
+button{
+    display: flex;
+    margin-left: 3rem;
+}

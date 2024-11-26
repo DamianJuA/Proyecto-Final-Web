@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(#c0c8ca, #1a2d42);
+    height: auto;
+}
+
+#bloc1{
+    background-color:  white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    height: 45rem;
+    border-radius: 2rem;
+}
+
+.fa-solid{
+    display: flex;
+    font-size: 15rem;
+    margin-left: 9rem;
+    padding-top: 10rem;
+}
+
+.fa-brands{
+    color: #007bff;
+}
+
+h2{
+    margin-left: 10rem;
+    padding-top: 1rem;
+}
+
+#espacio{
+    width: 28rem;
+    
+}
+
+footer{
+    padding: 10px;
+    margin: 0;
+}

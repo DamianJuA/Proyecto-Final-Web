@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="img/logolimpio.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Torre Áurea Médica
+                  </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="especialidades2.html" >
+                                Especialidades
+                            </a>
+                        </li>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="Contacto.html" >
+                                Contacto
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="Registro.html" >
+                                Registro
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="iniciodesesion.html" >
+                                Inicio de sesión
+                            </a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Nuestras Especialidades</h1>
+                    <p>Conozca nuestras instalaciones, médicos y las enfermedades que tratamos.</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Galería de imágenes de las instalaciones -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <h2 class="text-center"><b>Instalaciones</b></h2>
+                        <img src="img/sala_espera.jpeg" class="card-img-top" alt="sala_espera">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Recepción y sala de espera</b></h5>
+                            <p class="card-text">Espacios acogedores donde los pacientes pueden registrarse y esperar su turno.</p>
+                            <p class="card-text">Están equipados con asientos cómodos, revistas, televisores y Wi-Fi gratuito.</p>
+                        </div>
+                        <img src="img/consultorio.jpeg" class="card-img-top" alt="consultorio">
+                        <img src="consultorio2.jpeg" class="card-img-top" alt="consultorio2">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Consultorios</b></h5>
+                            <p class="card-text">Habitaciones privadas donde los médicos realizan consultas y exámenes físicos.</p>
+                            <p class="card-text">Están equipados con los instrumentos médicos necesarios y dispositivos de diagnóstico.</p>
+                        </div>
+                        <img src="img/tratamiento.jpg" class="card-img-top" alt="tratamiento">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Áreas de tratamiento</b></h5>
+                            <p class="card-text">Zonas especializadas para procedimientos médicos, tratamientos y terapias, equipadas con tecnología avanzada y equipos de alta calidad.</p>
+                        </div>
+                        <img src="img/laboratorio.jpg" class="card-img-top" alt="laboratorio">
+                        <img src="img/diagnostico.png" class="card-img-top" alt="diagnostico">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Laboratorio y diagnóstico</b></h5>
+                            <p class="card-text">Espacios dedicados para análisis clínicos y pruebas diagnósticas, tales como radiografías, ecografías, y análisis de laboratorio.</p>
+                        </div>
+                        <img src="img/salarec.jpg" class="card-img-top" alt="salarecuperacióm">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Áreas de recuperación</b></h5>
+                            <p class="card-text">Salas para que los pacientes descansen y se recuperen después de un procedimiento o tratamiento, proporcionando un ambiente tranquilo y confortable.</p>
+                        </div>
+                        <img src="img/almacen.jpg" class="card-img-top" alt="almacen">
+                        <img src="img/oficinas.jpg" class="card-img-top" alt="oficinas">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Instalaciones de apoyo</b></h5>
+                            <p class="card-text">Incluyen oficinas administrativas, áreas de almacenamiento de suministros médicos y zonas de limpieza y esterilización.</p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Galería de médicos -->          
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <h2><b>Médicos</b></h2>
+                        <h10>(Selecciona la imagen del Doctor o Doctora</h10>
+                        <h10>para agendar una cita)</h10>
+                        <div class="card-body">
+                            <button class="show-calendar-btn btn btn-secundary">
+                                <img src="img/doctor2.jpg" class="card-img-top" alt="doctor2">
+                            </button>
+                            <h5 class="card-title"><b>Dr. Antonio Pérez</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Cardiología</p>
+                            <p class="card-text"><b>Consultorio:</b> 101</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-80-76-56-43</p>
+                            <div id="calendarContainer" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-1 btn btn-secundary">
+                                <img src="img/doctor3.jpg" class="card-img-top" alt="doctor3">
+                            </button>
+                            <h5 class="card-title"><b>Dr. Carlos Martínez</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Neumólogia</p>
+                            <p class="card-text"><b>Consultorio:</b> 121</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-43-54-65-22</p>
+                            <div id="calendarContainer-1" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-2 btn btn-secundary">
+                                <img src="img/doctora1.jpg" class="card-img-top" alt="doctora1">
+                            </button>
+                            <h5 class="card-title"><b>Dra. María López</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Endocrinología</p>
+                            <p class="card-text"><b>Consultorio:</b> 131</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-32-12-46-54</p>
+                            <div id="calendarContainer-2" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-3 btn btn-secundary">
+                                <img src="img/doctor6.jpg" class="card-img-top" alt="doctor6">
+                            </button>
+                            <h5 class="card-title"><b>Dr. Juan Rodríguez</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Cardiología</p>
+                            <p class="card-text"><b>Consultorio:</b> 141</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-89-08-76-45</p>
+                            <div id="calendarContainer-3" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-4 btn btn-secundary">
+                                <img src="img/doctora2.jpg" class="card-img-top" alt="doctora2">
+                            </button>
+                            <h5 class="card-title"><b>Dra. Ana González</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Podología</p>
+                            <p class="card-text"><b>Consultorio:</b> 151</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-43-65-83-90</p>
+                            <div id="calendarContainer-4" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-5 btn btn-secundary">
+                                <img src="img/doctora3.jpg" class="card-img-top" alt="doctora3">
+                            </button>
+                            <h5 class="card-title"><b>Dra. Laura Sánchez</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> Cirujano Ortopedista</p>
+                            <p class="card-text"><b>Consultorio:</b> 161</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-23-85-46-34</p>
+                            <div id="calendarContainer-5" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <button class="show-calendar-btn-6 btn btn-secundary">
+                                <img src="img/doctor1.jpeg" class="card-img-top" alt="doctor1">
+                            </button>
+                            <h5 class="card-title"><b>Dr. Manuel Gómez</b></h5>
+                            <p class="card-text"><b>Especialidad:</b> General</p>
+                            <p class="card-text"><b>Consultorio:</b> 171</p>
+                            <p class="card-text"><b>Teléfono:</b> 55-86-98-56-45</p>
+                            <div id="calendarContainer-6" class="mt-4" style="display: none;"> 
+                                <input type="text" id="calendar" class="form-control" placeholder="Selecciona fecha y hora"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Galería de enfermedades tratantes -->
+                <div class="col-md-4">
+                    <h2 class="text-center"><b>Enfermedades</b></h2>
+                    <div class="card">
+                        <img src="img/cardiovascular.jpg" class="card-img-top" alt="cardiovascular">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Enfermedades cardiovasculares</b></h5>
+                            <p class="card-text">Infartos, insuficiencia cardíaca, hipertensión arterial.</p>
+                        </div>
+                        <img src="img/respiratorias.jpg" class="card-img-top" alt="respiratorias">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Enfermedades respiratorias</b></h5>
+                            <p class="card-text">Asma, neumonía, enfermedades obstructivas crónicas como la EPOC.</p>
+                        </div>
+                            <img src="img/infecciones.jpg" class="card-img-top" alt="infecciones">
+                            <div class="card-body">
+                            <h5 class="card-title"><b>Infecciones</b></h5>
+                            <p class="card-text">Bacterianas, virales, fúngicas y parasitarias, incluyendo sepsis y tuberculosis.</p>
+                        </div>
+                        <img src="img/endocrinos.png" class="card-img-top" alt="endocrinos">
+                            <div class="card-body">
+                            <h5 class="card-title"><b>Trastornos endocrinos</b></h5>
+                            <p class="card-text">Diabetes, hipotiroidismo, problemas suprarrenales.</p>
+                        </div>
+                        <img src="img/ortopedia.jpeg" class="card-img-top" alt="ortopedista">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Enfermedades ortopedicas</b></h5>
+                            <p class="card-text">Fracturas, artritis, lesiones deportivas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="text-center p-3">
+                &copy; 2024 Torre Médica | Síguenos en nuestras redes sociales
+                <class="ms-2"><a href="https://www.facebook.com/FESAragonUNAM/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                <class="ms-2"><a href="https://www.instagram.com/fesaragonunam/?hl=es_LA"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
+        <script> document.querySelector('.show-calendar-btn').addEventListener('click', function() { 
+                    document.getElementById('calendarContainer').style.display = 'block'; 
+                    flatpickr('#calendar', {
+                        enableTime: true, 
+                        dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-1').addEventListener('click', function() { 
+                document.getElementById('calendarContainer-1').style.display = 'block'; 
+                flatpickr('#calendar', {
+                    enableTime: true, 
+                    dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-2').addEventListener('click', function() { 
+                document.getElementById('calendarContainer-2').style.display = 'block'; 
+                flatpickr('#calendar', {
+                    enableTime: true, 
+                    dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-3').addEventListener('click', function() { 
+                    document.getElementById('calendarContainer-3').style.display = 'block'; 
+                    flatpickr('#calendar', {
+                        enableTime: true, 
+                        dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-4').addEventListener('click', function() { 
+                    document.getElementById('calendarContainer-4').style.display = 'block'; 
+                    flatpickr('#calendar', {
+                        enableTime: true, 
+                        dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-5').addEventListener('click', function() { 
+                    document.getElementById('calendarContainer-5').style.display = 'block'; 
+                    flatpickr('#calendar', {
+                        enableTime: true, 
+                        dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+        <script> document.querySelector('.show-calendar-btn-6').addEventListener('click', function() { 
+                    document.getElementById('calendarContainer-6').style.display = 'block'; 
+                    flatpickr('#calendar', {
+                        enableTime: true, 
+                        dateFormat: 'Y-m-d H:i', 
+                    }); 
+                });
+        </script>
+    </body>
+</html>

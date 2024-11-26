@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(#c0c8ca, #1a2d42);
+}
+
+.navbar{
+    background-color: #7b7dcb;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #e6eaee;
+}
+
+#bloc1{
+    margin-top: 5rem;
+    height: 30rem;
+}
+
+#bloc1 h2 {
+    text-align: center; 
+}
+
+#direccion h2, #telefono h2 {
+    text-align: center;  
+}
+
+#direccion iframe {
+    display: block;       
+    margin: 0 auto;         
+    max-width: 100%;         
+    height: 400px;           
+}
+
+#bloc2{
+    margin-top: 5rem;
+}
+
+#bloc3{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#imagenlogo{
+    display: flex;
+    justify-content: center;
+}
+
+#Figura{
+    display: flex;
+    justify-content:center ;
+    color: white;
+}
+
+#horarios{
+    text-align: center;
+}
+
+#hHospital{
+    text-align: center;
+}
+
+#hVisita{
+    text-align: center;
+}
+
+.table th, .table td {
+    text-align: center;  
+    vertical-align: middle; 
+}
+
+#bloc4{
+    background-color: #7b7dcb;
+    height: 5rem;
+}
+ 
+#bloc4 p{
+    color: black;
+    margin: 0.5%;
+    text-decoration: underline;
+}
+
+#iconos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5rem;
+    font-size: 200%;
+}
+
+.fa-brands{
+    color: #007bff;
+}

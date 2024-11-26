@@ -1,0 +1,28 @@
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #c0c8ca;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer i {
+    color: #007bff;
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #0056b3;
+}
